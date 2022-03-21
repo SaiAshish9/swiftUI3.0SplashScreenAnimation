@@ -1,10 +1,3 @@
-//
-//  ContentView.swift
-//  animatedSplashScreen
-//
-//  Created by Sai Ashish Darapureddy on 21/03/22.
-//
-
 import SwiftUI
 
 struct ContentView: View {
