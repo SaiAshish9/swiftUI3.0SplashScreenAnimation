@@ -2,8 +2,19 @@ import SwiftUI
 
 struct ContentView: View {
     var body: some View {
-        Text("Hello, world!")
-            .padding()
+        SplashScreen(imageSize: CGSize(width: 120, height: 120)) {
+            
+        } titleView: {
+           Text("Sai")
+                .font(.system(size: 35).bold())
+                .foregroundColor(.white)
+        }
+        logoView : {
+            Image("Logo")
+                .resizable()
+                .aspectRatio(contentMode: .fit)
+//                .frame(width: 120, height: 120)
+        }
     }
 }
 
